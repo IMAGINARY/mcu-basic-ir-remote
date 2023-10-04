@@ -60,9 +60,9 @@
  * and a variable 8 bit command.
  * There are exceptions like Sony and Denon, which have 5 bit address.
  */
-uint16_t sAddress = 0x4;
-uint8_t sCommand = 0x8;
-uint8_t sRepeats = 0;
+uint16_t sAddress = 0x1308;
+uint8_t sCommand = 0x87;
+uint8_t sRepeats = 1;
 
 void setup() {
     Serial.begin(115200);
